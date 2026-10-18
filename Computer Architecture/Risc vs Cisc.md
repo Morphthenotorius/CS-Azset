@@ -27,4 +27,4 @@ As we can see ISA comes after compiler which means that whenever compiler separa
 * **Layers above can change without touching hardware**
 
 ### Other ISAs 
-As we already mentioned we cannot imagine any computer without ISA because without ISA neither instructions nor registers make sense. Therefore every device which have brain (CPU) these kind of devices must contain ISA. Due to that we have many other ISAs beside RISC and CISC 
+As we already mentioned we cannot imagine any computer without ISA because without ISA neither instructions nor registers make sense. Therefore every device which have brain (CPU) these kind of devices must contain ISA. Due to that we have many other ISAs beside RISC and CISC such as **Stack machine** which works with 0 address principle which means this ISA doesn't take any arguments for ALU (Arithmetic Logic Unit) operations. Also we have Accumulator based ISA **(1 Address)**, VLIW **(Very long instruction word)**
