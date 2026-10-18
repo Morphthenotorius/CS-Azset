@@ -23,3 +23,8 @@ As we can see ISA comes after compiler which means that whenever compiler separa
 
 ### Other examples why the ISA is special
 * **ISA is the layer which directly visible to programmers**
+* **Layers below can be replaced without touching high level software**
+* **Layers above can change without touching hardware**
+
+### Other ISAs 
+As we already mentioned we cannot imagine any computer without ISA because without ISA neither instructions nor registers make sense. Therefore every device which have brain (CPU) these kind of devices must contain ISA. Due to that we have many other ISAs beside RISC and CISC 
